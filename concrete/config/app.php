@@ -372,6 +372,10 @@ return [
      * Assets
      */
     'assets' => [
+        'custom' => [
+            ['javascript', 'js/custom.js', ['minify' => false, 'combine' => false]],
+            ['css', 'css/custom.css', ['minify' => false]],
+        ],
         'google-charts' => [
             [
                 'javascript',

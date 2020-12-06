@@ -9,56 +9,29 @@ $footerSocialBlocks = $footerSocial->getTotalBlocksInArea();
 $displayFirstSection = $footerSiteTitleBlocks > 0 || $footerSocialBlocks > 0 || $c->isEditMode();
 ?>
 
-<footer id="footer-theme">
-    <?php
-    if ($displayFirstSection) {
-        ?>
-        <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-9">
-                        <?php
-                        $a = new GlobalArea('Footer Site Title');
-                        $a->display();
-                        ?>
-                    </div>
-                    <div class="col-sm-3">
-                        <?php
-                        $a = new GlobalArea('Footer Social');
-                        $a->display();
-                        ?>
-                    </div>
-                </div>
+<footer id="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 padding-2-0">
+                <?php
+                $a = new GlobalArea('Footer Legal');
+                $a->display();
+                ?>
             </div>
-        </section>
-        <?php
-    }
-    ?>
-
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <?php
-                    $a = new GlobalArea('Footer Legal');
-                    $a->display();
-                    ?>
-                </div>
-                <div class="col-sm-3">
-                    <?php
-                    $a = new GlobalArea('Footer Navigation');
-                    $a->display();
-                    ?>
-                </div>
-                <div class="col-sm-3">
-                    <?php
-                    $a = new GlobalArea('Footer Contact');
-                    $a->display();
-                    ?>
-                </div>
+            <div class="col-sm-2 col-sm-offset-2  padding-2-0">
+                <?php
+                $a = new GlobalArea('Footer Navigation');
+                $a->display();
+                ?>
+            </div>
+            <div class="col-sm-3 col-sm-offset-2  padding-2-0">
+                <?php
+                $a = new GlobalArea('Footer Contact');
+                $a->display();
+                ?>
             </div>
         </div>
-    </section>
+    </div>
 </footer>
 
 <footer id="concrete5-brand">

@@ -26,9 +26,13 @@ class PageTheme extends Theme implements ThemeProviderInterface
 
         $this->requireAsset('css', 'font-awesome');
         $this->requireAsset('javascript', 'jquery');
+        $this->requireAsset('css', 'jquery/ui');
+        $this->requireAsset('javascript', 'jquery/ui');
         $this->requireAsset('javascript', 'picturefill');
         $this->requireAsset('javascript-conditional', 'html5-shiv');
         $this->requireAsset('javascript-conditional', 'respond');
+        $this->requireAsset('css', 'custom');
+        $this->requireAsset('javascript', 'custom');
     }
 
     protected $pThemeGridFrameworkHandle = 'bootstrap3';

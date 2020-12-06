@@ -34,4 +34,11 @@
             }
         }
     });
+    $('#header-navigation li').each(function(index) {
+        if($(this).children('ul').size() > 0) {
+            $(this).addClass('parent-ul');
+        } else {
+            $(this).addClass('last-li');
+        }
+    });
 })(window, $);
