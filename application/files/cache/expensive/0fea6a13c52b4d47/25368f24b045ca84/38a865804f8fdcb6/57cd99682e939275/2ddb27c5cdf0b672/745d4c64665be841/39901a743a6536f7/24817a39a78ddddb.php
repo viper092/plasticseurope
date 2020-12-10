@@ -1,12 +1,12 @@
 <?php 
 /* Cachekey: cache/stash_default/doctrine/[concrete\core\entity\permission\ipaccesscontrolevent$ipaddress@[annot]][1]/ */
 /* Type: array */
-/* Expiration: 2020-12-10T10:32:54+01:00 */
+/* Expiration: 2020-12-15T10:19:30+01:00 */
 
 
 
 $loaded = true;
-$expiration = 1607592774;
+$expiration = 1608023970;
 
 $data = array();
 
@@ -14,4 +14,4 @@ $data = array();
 $data['return'] = unserialize(base64_decode('YTowOnt9'));
 
 /* Child Type: integer */
-$data['createdOn'] = 1607190740;
+$data['createdOn'] = 1607600936;

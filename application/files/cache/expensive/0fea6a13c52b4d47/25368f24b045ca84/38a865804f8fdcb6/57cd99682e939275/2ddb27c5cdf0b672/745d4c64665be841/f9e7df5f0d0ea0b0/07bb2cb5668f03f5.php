@@ -1,12 +1,12 @@
 <?php 
 /* Cachekey: cache/stash_default/doctrine/[concrete\core\entity\permission\ipaccesscontrolcategory$name@[annot]][1]/ */
 /* Type: array */
-/* Expiration: 2020-12-10T09:10:50+01:00 */
+/* Expiration: 2020-12-14T23:10:57+01:00 */
 
 
 
 $loaded = true;
-$expiration = 1607587850;
+$expiration = 1607983857;
 
 $data = array();
 
@@ -14,4 +14,4 @@ $data = array();
 $data['return'] = unserialize(base64_decode('YToxOntpOjA7TzoyNzoiRG9jdHJpbmVcT1JNXE1hcHBpbmdcQ29sdW1uIjo5OntzOjQ6Im5hbWUiO3M6ODoiaWFjY05hbWUiO3M6NDoidHlwZSI7czo2OiJzdHJpbmciO3M6NjoibGVuZ3RoIjtpOjI1NTtzOjk6InByZWNpc2lvbiI7aTowO3M6NToic2NhbGUiO2k6MDtzOjY6InVuaXF1ZSI7YjowO3M6ODoibnVsbGFibGUiO2I6MDtzOjc6Im9wdGlvbnMiO2E6MTp7czo3OiJjb21tZW50IjtzOjI2OiJUaGUgSVAgQWNjZXNzIENvbnRyb2wgbmFtZSI7fXM6MTY6ImNvbHVtbkRlZmluaXRpb24iO047fX0='));
 
 /* Child Type: integer */
-$data['createdOn'] = 1607190740;
+$data['createdOn'] = 1607600936;

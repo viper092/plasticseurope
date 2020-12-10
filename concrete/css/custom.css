@@ -292,6 +292,8 @@ div.ccm-page .ccm-image-slider-container {
     font-size: 66px !important;
     color: white !important;
     line-height: 1em !important;
+    margin: 0px;
+    padding-bottom: 10px;
 }
 
 .news-section {
@@ -534,11 +536,11 @@ form.newsletter{
 }
 
 .container .row .col-sm-12 .row .col-sm-6 {
-    padding: 1%;
+    /*padding: 1%;*/
 }
 
 .container .row .col-sm-12 .row .col-sm-6 .row .col-sm-6 {
-    padding-top: 0px;
+    /*padding-top: 0px;*/
 }
 
 .row {
@@ -693,7 +695,7 @@ nav.ccm-responsive-navigation {
 
 div.ccm-page header nav ul li {
     padding-bottom: 0px !important;
-    padding-right: 22px;
+    padding-right: 12px;
 }
 
 @media (max-width: 767px) {
@@ -753,13 +755,17 @@ div.ccm-page header nav ul a {
     line-height: 1em !important;
 }
 
-.application-industry .layout-light .text-inner h2 {
+.application-industry .text-inner h2 {
     color: #0671b9!important;
     font-size: 58px !important;
 }
 
-.application-industry .layout-light .text-inner p {
+.application-industry .text-inner p {
     color: #515a66 !important;
+}
+
+.application-industry-introductions {
+    padding: 2% 0;
 }
 
 .application-industry-introductions .layout-light .text-inner h2 {
@@ -876,8 +882,8 @@ div.ccm-page div.ccm-block-testimonial-wrapper {
 .industry-sector {
     background-color: #0671b9;
     color: white;
-    width: 95%;
     margin: 10px auto;
+    padding: 30px;
 }
 
 .industry-sector-image {
@@ -885,7 +891,7 @@ div.ccm-page div.ccm-block-testimonial-wrapper {
     justify-content: center;
     width: 50px;
     margin: auto;
-    padding: 15% 0;
+    padding-bottom: 30px;
 }
 
 .industry-sector-text {
@@ -893,12 +899,16 @@ div.ccm-page div.ccm-block-testimonial-wrapper {
     justify-content: center;
     margin: auto;
     text-align: center;
-    width: 90%;
+    font-weight: 700;
+    color: #ecf0f4!important;
+    line-height: 1.3em;
+    font-size: 18px !important;
 }
 
 .industry-sector-text p {
-    font-weight: bold;
-    padding-bottom: 5%;
+    font-weight: 700;
+    margin: 0px;
+    padding-bottom: 10px;
 }
 
 .first-item, .second-item {
@@ -967,8 +977,15 @@ div.ccm-page div.ccm-block-testimonial-wrapper {
 }
 
 @media (max-width: 479px) {
-    .blurb-background {
+    .blurb-background,
+    .industry-sector,
+    .contact-section,
+    .fluoropolymer-applications-sector {
         height: auto !important;
+    }
+
+    .contact-section {
+        margin-top: 0px !important;
     }
 }
 
@@ -1057,30 +1074,200 @@ div#header-navigation .ccm-responsive-navigation {
     display: none;
 }
 
-/*@media (min-width: 1200px) {*/
-    /*div.blurb-background {*/
-        /*max-height: 280px !important;*/
-    /*}*/
-/*}*/
+.our-member {
+    padding: 4% 0;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: #515a66;
+}
 
-/*@media (min-width: 981px) {*/
-    /*div.blurb-background {*/
-        /*max-height: 280px !important;*/
-    /*}*/
-/*}*/
+.our-member p {
+    font-size: 19px;
+}
 
-/*@media (min-width: 768px) {*/
-    /*div.blurb-background {*/
-        /*max-height: 280px !important;*/
-    /*}*/
-/*}*/
+.our-member-image {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
 
-/*@media (max-width: 479px) {*/
-    /*div.blurb-background {*/
-        /*font-size: 20px;*/
-    /*}*/
+.our-member-image img {
+    padding: 40px;
+}
 
-    /*.last-child {*/
-        /*padding-top: 18% !important;*/
-    /*}*/
-/*}*/
+.our-member-image-section {
+    padding: 0 2% 2% 0;
+}
+
+.irreplaceable-title {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: #515a66;
+    padding-top: 4%;
+}
+
+.irreplaceable-title p {
+    font-size: 22px;
+}
+
+.irreplaceable-left {
+}
+
+.irreplaceable-left p {
+    font-weight: 700;
+    color: #0671b9!important;
+    line-height: 1.5em;
+    font-size: 23px;
+}
+
+.irreplaceable-right p {
+    color: #515a66!important;
+}
+
+.irreplaceable-left p,
+.irreplaceable-right p {
+    line-height: 1.5em;
+}
+
+.fluoropolymer-applications-sector {
+    background-color: #0671b9;
+    margin: 4% 0;
+    margin-top: 0px !important;
+}
+.fluoropolymer-applications-background {
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+.fluoropolymer-applications-image {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.fluoropolymer-applications-text {
+    margin: auto;
+    text-align: center;
+    width: 90%;
+}
+
+.fluoropolymer-applications-text h4 {
+    font-size: 24px !important;
+    color: white !important;
+}
+
+.fluoropolymer-applications-text p {
+    padding-bottom: 5%;
+    margin: 0px;
+    font-weight: 400;
+}
+
+.application-industry-introductions .text-inner h2 {
+    color: #0671b9!important;
+    font-size: 26px !important;
+}
+
+.application-industry-introductions .text-inner,
+.application-industry .text-inner {
+    line-height: 1.7em;
+}
+
+.application-industry-introductions .text-inner p,
+.application-industry-introductions .text-inner ul {
+    color: #515a66 !important;
+    margin: 0px;
+    padding-bottom: 1em;
+}
+
+.application-industry-introductions .text-inner ul {
+    padding-left: 20px;
+}
+
+.application-industries {
+    padding: 40px;
+    background-color: #ecf0f4;
+}
+
+.application-industries .text-inner h3 {
+    font-size: 22px !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #515a66!important;
+    line-height: 2em;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+.application-industries .text-inner ul {
+    color: #515a66!important;
+    padding: 0 0 23px 1em;
+    line-height: 26px;
+    margin: 0px;
+}
+
+.text-inner ul li {
+    list-style-type: circle;
+}
+
+.contact-header,
+.contact-description,
+.contact-section {
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif !important;
+    font-weight: 500 !important;
+    line-height: 1.8em !important;
+    text-align: center;
+    font-size: 18px !important;
+}
+
+.contact-header {
+    color: #077FD2 !important;
+}
+
+.contact-description {
+    color: #515a66 !important;
+}
+
+.contact-position {
+    margin-top: -50px;
+    height: 312px !important;
+}
+
+.contact-section {
+    background-color: #ffffff;
+    padding: 40px;
+    box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
+    margin-top: 50px;
+    height: 262px;
+    opacity: 0%;
+}
+
+.contact-description a {
+    color: #0671b9 !important;
+}
+
+.contact-image {
+    width: 76px;
+    height: 76px;
+    background-color: #077FD2;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.contact-image img {
+    height: 26px !important;
+    margin-top: 25px;
+}
+
+.parent-ul ul {
+    background-color: #0671b9 !important;
+}
+
+.base-contact-section {
+    height: 100px;
+    box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
+}

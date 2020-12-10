@@ -1,12 +1,12 @@
 <?php 
 /* Cachekey: cache/stash_default/zend/zend_feed_reader_32cf6f1b9ec7fdf83da2b96ed1f32a3c/ */
 /* Type: array */
-/* Expiration: 2020-12-10T04:34:17+01:00 */
+/* Expiration: 2020-12-15T04:19:42+01:00 */
 
 
 
 $loaded = true;
-$expiration = 1607571257;
+$expiration = 1608002382;
 
 $data = array();
 
@@ -19,6 +19,22 @@ $data['return'] = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
     <generator>Zend_Feed_Writer 2 (http://framework.zend.com)</generator>
     <link>https://www.concrete5.org/about/blog</link>
     <item>
+      <title>concrete5 8.5.5 Release Candidate 1 is Now Available!</title>
+      <description><![CDATA[No Content.]]></description>
+      <pubDate>Wed, 09 Dec 2020 23:41:00 +0000</pubDate>
+      <link>https://www.concrete5.org/about/blog/core-releases/concrete5-855-release-candidate-1-now-available</link>
+      <guid>https://www.concrete5.org/about/blog/core-releases/concrete5-855-release-candidate-1-now-available</guid>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>Help us test the new community site!</title>
+      <description><![CDATA[We're going to be supporting the international community with the new site we're building here, and we'd love your help testing it.]]></description>
+      <pubDate>Tue, 08 Dec 2020 16:41:00 +0000</pubDate>
+      <link>https://www.concrete5.org/about/blog/news/help-us-test-new-community-site</link>
+      <guid>https://www.concrete5.org/about/blog/news/help-us-test-new-community-site</guid>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
       <title>HostingAdvice.com reviews Concrete CMS</title>
       <description><![CDATA[Concrete Delivers an Enjoyable and Efficient Site-Building and Management Experience]]></description>
       <pubDate>Mon, 30 Nov 2020 18:09:00 +0000</pubDate>
@@ -29,7 +45,7 @@ $data['return'] = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
     <item>
       <title>Join us for our last town hall meeting of 2020 on December 8th, 2020</title>
       <description><![CDATA[Join us for our last town hall meeting of 2020 on December 8th, 2020 at 9:30 a.m. PST]]></description>
-      <pubDate>Mon, 30 Nov 2020 01:00:00 +0000</pubDate>
+      <pubDate>Mon, 30 Nov 2020 13:00:00 +0000</pubDate>
       <link>https://www.concrete5.org/about/blog/community-blog/join-us-our-last-town-hall-meeting-2020-december-8th-2020</link>
       <guid>https://www.concrete5.org/about/blog/community-blog/join-us-our-last-town-hall-meeting-2020-december-8th-2020</guid>
       <slash:comments>0</slash:comments>
@@ -162,25 +178,9 @@ $data['return'] = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
       <guid>https://www.concrete5.org/about/blog/community-blog/win-ipad-just-tell-us-what-you-think-about-concrete5</guid>
       <slash:comments>0</slash:comments>
     </item>
-    <item>
-      <title>New Github Labels</title>
-      <description><![CDATA[Updating the way we organize issues in Github]]></description>
-      <pubDate>Sun, 12 Jan 2020 20:10:00 +0000</pubDate>
-      <link>https://www.concrete5.org/about/blog/core-roadmap/new-github-labels</link>
-      <guid>https://www.concrete5.org/about/blog/core-roadmap/new-github-labels</guid>
-      <slash:comments>0</slash:comments>
-    </item>
-    <item>
-      <title>Updated Privacy Policy</title>
-      <description><![CDATA[It's January 2020 and we updated our privacy policy!]]></description>
-      <pubDate>Sun, 12 Jan 2020 20:07:00 +0000</pubDate>
-      <link>https://www.concrete5.org/about/blog/news/updated-privacy-policy</link>
-      <guid>https://www.concrete5.org/about/blog/news/updated-privacy-policy</guid>
-      <slash:comments>0</slash:comments>
-    </item>
   </channel>
 </rss>
 ";
 
 /* Child Type: integer */
-$data['createdOn'] = 1607197727;
+$data['createdOn'] = 1607600955;
