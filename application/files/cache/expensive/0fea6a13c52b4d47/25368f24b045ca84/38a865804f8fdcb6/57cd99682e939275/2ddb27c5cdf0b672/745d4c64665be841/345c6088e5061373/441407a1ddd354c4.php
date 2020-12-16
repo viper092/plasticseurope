@@ -1,12 +1,12 @@
 <?php 
 /* Cachekey: cache/stash_default/doctrine/[concrete\core\entity\express\onetooneassociation@[annot]][1]/ */
 /* Type: array */
-/* Expiration: 2020-12-15T07:28:14+01:00 */
+/* Expiration: 2020-12-21T11:48:55+01:00 */
 
 
 
 $loaded = true;
-$expiration = 1608013694;
+$expiration = 1608547735;
 
 $data = array();
 
@@ -14,4 +14,4 @@ $data = array();
 $data['return'] = unserialize(base64_decode('YToxOntpOjA7TzoyNzoiRG9jdHJpbmVcT1JNXE1hcHBpbmdcRW50aXR5IjoyOntzOjE1OiJyZXBvc2l0b3J5Q2xhc3MiO047czo4OiJyZWFkT25seSI7YjowO319'));
 
 /* Child Type: integer */
-$data['createdOn'] = 1607591186;
+$data['createdOn'] = 1608138748;

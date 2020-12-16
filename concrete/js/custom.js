@@ -29,7 +29,7 @@ window.onload = function() {
         // for (let i=0; i< submenu_uls.length; i++) {
         //     submenu_uls[i].style.backgroundColor = '#0671b9';
         // }
-        header_search.style.paddingTop = '2px';
+        header_search.style.paddingTop = '0px';
         $('.nav-path-selected > a').attr('style', 'color: white !important');
     } else {
         header.style.backgroundColor='transparent';
@@ -39,7 +39,7 @@ window.onload = function() {
         // for (let i=0; i< submenu_uls.length; i++) {
         //     submenu_uls[i].style.backgroundColor = 'transparent';
         // }
-        header_search.style.paddingTop = '11px';
+        header_search.style.paddingTop = '10px';
         $('.nav-path-selected > a').attr('style', 'color: #2ea3f2 !important');
     }
 
@@ -94,7 +94,7 @@ $(window).on('scroll', function() {
         for (let i=0; i< submenu_uls.length; i++) {
             $(submenu_uls[i]).css('backgroundColor', '#0671b9');
         }
-        $(header_search).animate({paddingTop: '2px'}, 500);
+        $(header_search).animate({paddingTop: '0px'}, 500);
         $('.nav-path-selected > a').attr('style', 'color: white !important');
     } else if($(this).scrollTop() < 30 && animation_status == 'animation') {
         animation_status = 'normal';
@@ -105,10 +105,24 @@ $(window).on('scroll', function() {
         for (let i=0; i< submenu_uls.length; i++) {
             $(submenu_uls[i]).css('backgroundColor', 'transparent');
         }
-        $(header_search).animate({paddingTop: '11px'}, 500);
+        $(header_search).animate({paddingTop: '10px'}, 500);
         $('.nav-path-selected > a').attr('style', 'color: #2ea3f2 !important');
     }
 });
+
+window.onresize = function() {
+    if($('.industry-sector')[0]) {
+        reset_height('industry-sector');
+    }
+
+    if($('.contact-section')[0]) {
+        reset_height('contact-section');
+    }
+
+    if($('.fluoropolymer-applications-sector')[0]) {
+        reset_height('fluoropolymer-applications-sector');
+    }
+}
 
 $('#search_icon').click(function () {
     let top_navigation = document.getElementsByClassName('ccm-responsive-navigation original')[0];
@@ -179,6 +193,7 @@ function reset_height(classname) {
             //Get max height
             let heights = [];
             for (let j=0; j<sector_elements.length; j++) {
+                sector_elements[j].style.height = 'auto';
                 heights[j] = sector_elements[j].offsetHeight;
             }
 
@@ -187,7 +202,9 @@ function reset_height(classname) {
             });
 
             for (let j=0; j<sector_elements.length;j++) {
-                sector_elements[j].style.height = max_height + 'px';
+                if(sector_elements[j].offsetHeight < max_height) {
+                    sector_elements[j].style.height = max_height + 'px';
+                }
             }
         }
     }
