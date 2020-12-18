@@ -1273,20 +1273,20 @@ div#header-navigation .ccm-responsive-navigation {
     text-transform: uppercase !important;
     color: #515a66 !important;
     margin-top: 0px;
-    font-size: 66px !important;
+    font-size: 36px !important;
     font-weight: 700 !important;
 }
 
 .news-introduction {
     color: #515a66;
-    font-size: 36px !important;
-    padding: 4% 0;
+    font-size: 20px !important;
+    padding: 2% 0;
 }
 
 .news-details a {
     color: #0671b9 !important;
     text-transform: uppercase;
-    font-size: 26px !important;
+    font-size: 18px !important;
 }
 
 @media (max-width: 479px) {
