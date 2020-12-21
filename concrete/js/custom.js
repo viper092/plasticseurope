@@ -82,6 +82,13 @@ window.onload = function() {
     }
 
     $('.contact-section').animate({marginTop:'-50px', height:'312px', opacity: '100%'}, 500);
+
+    $("li.parent-ul > a").each(function(){
+        if($(this)[0].href != 'http://localhost/plasticseurope/index.php/Applications' && $(this)[0].href != 'http://localhost/plasticseurope/Applications'){
+        // if($(this)[0].href != 'https://mccl.be/fluoropolymers.plasticseurope.org/index.php/Applications' && $(this)[0].href != 'https://mccl.be/fluoropolymers.plasticseurope.org/Applications'){
+            $(this).removeAttr("href");
+        }
+    });
 }
 
 $(window).on('scroll', function() {

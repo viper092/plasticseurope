@@ -1312,3 +1312,13 @@ div#header-navigation .ccm-responsive-navigation {
     color: #515a66 !important;
     font-size: 20px !important;
 }
+
+.container .row .col-sm-12 .row .col-sm-12 h1 {
+    color: #0671b9!important;
+    font-size: 48px !important;
+}
+
+.container .row .col-sm-12 .row .col-sm-12 p {
+    color: #515a66 !important;
+    font-size: 20px !important;
+}
